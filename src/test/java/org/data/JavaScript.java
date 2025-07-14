@@ -20,8 +20,8 @@ public class JavaScript {
 		Thread.sleep(2000);
 		//Scroll Up to specific line
 	    WebElement adyar = driver.findElement(By.xpath("//span[text()='Greens Technology Adyar']"));
-	    js.executeScript("arguments[0].scrollIntoView(false)",adyar);
+	    js.executeScript("arguments[0].scrollIntoView(false)",adyar)
 
 	}
-
+            System.out.println("End);
 }
